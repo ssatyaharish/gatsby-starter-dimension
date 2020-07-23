@@ -104,7 +104,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Contact</h2>
           <p>
-            You can contact me for any other questions
+            Myself SS.Harish and previously few of my own Family & Friends have been tested Corona Positive.There were lot questions for me then so I tried to create this website with the answers/solutions I found. If you have any specific questions that I could answer, you can reach me through following handles .Please ask only those questions which you feel are important :)  
           </p>
           <ul className="icons">
             <li>

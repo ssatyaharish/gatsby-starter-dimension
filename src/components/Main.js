@@ -7,6 +7,16 @@ import pic03 from '../images/pic03.jpg'
 import pdfFile from '../images/COVID-19-Guidelines.pdf'
 
 class Main extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {windowWidth: 375};
+  }
+  componentDidMount(){
+    console.log('window.screen.width', window.screen.width)
+    this.setState({
+      windowWidth: window.screen.width
+    })
+  }
   render() {
     let close = (
       <div
@@ -16,7 +26,6 @@ class Main extends React.Component {
         }}
       ></div>
     )
-    console.log('this.props.setWrapperRef', window.screen.width)
     return (
       <div
         ref={this.props.setWrapperRef}
@@ -62,9 +71,9 @@ class Main extends React.Component {
           <h2 className="major">HOME-ISOLATION</h2>
           <span className="image main">
             <Document file={pdfFile}>
-              <Page pageNumber={3} width={window.screen.width >= 768 ? 500 : null}/>
-              <Page pageNumber={4} width={window.screen.width >= 768 ? 500 : null}/>
-              <Page pageNumber={5} width={window.screen.width >= 768 ? 500 : null}/>
+              <Page pageNumber={3} width={this.state.windowWidth >= 768 ? 500 : null}/>
+              <Page pageNumber={4} width={this.state.windowWidth >= 768 ? 500 : null}/>
+              <Page pageNumber={5} width={this.state.windowWidth >= 768 ? 500 : null}/>
             </Document>
           </span>
           {close}
@@ -80,7 +89,7 @@ class Main extends React.Component {
           <h2 className="major">Diet</h2>
           <span className="image main">
             <Document file={pdfFile}>
-              <Page pageNumber={10} width={window.screen.width >= 768 ? 500 : null}/>
+              <Page pageNumber={10} width={this.state.windowWidth >= 768 ? 500 : null}/>
             </Document>
           </span>
           {close}

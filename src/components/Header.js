@@ -9,6 +9,9 @@ const Header = props => (
         <p>
           We all are together in this battle, Dont worry :)
         </p>
+        <p>
+          Im a Software developer, building this site for only general awareness !!
+        </p>
       </div>
     </div>
     <nav>
@@ -20,6 +23,33 @@ const Header = props => (
             }}
           >
             Symptoms
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('consultation')
+            }}
+          >
+            Consultation
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('testing')
+            }}
+          >
+            Covid Testing
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('medicines')
+            }}
+          >
+            Medicines
           </button>
         </li>
         <li>

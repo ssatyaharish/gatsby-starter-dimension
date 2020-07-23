@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import { Document, Page } from 'react-pdf'
+import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
@@ -58,6 +59,188 @@ class Main extends React.Component {
             look after themselves. Please find quick links for home
             isolation in the home page.
           </p>
+          <p>
+            My own Family and Friends were tested Corona Positive.
+            Here I would like to put out their experience of Corona Positive SYMPTOMS.It might not be the case for everyone who experience Corona though.
+          </p>
+          <Timeline lineColor={'#ddd'}>
+            <TimelineItem
+              key="001"
+              dateText="Day 1"
+              style={{ color: '#e86971' }}
+            >
+              <h3>Bitter taste in mouth.</h3>
+            </TimelineItem>
+            <TimelineItem
+              key="002"
+              dateText="Day 2 - 4"
+              style={{ color: '#e86971' }}
+            >
+              <h3>Fever(From 99 to 101) & Body Ache,Insane feeling,Around 3kgs weight loss</h3>
+            </TimelineItem>
+            <TimelineItem
+              key="003"
+              dateText="Day 5 - 7"
+              style={{ color: '#e86971' }}
+            >
+              <h3> Cough and Mild Irritation in throat,50% loss of taste & smell.Cant smell dettol or perfumes,No fever.</h3>
+            </TimelineItem>
+            <TimelineItem
+              key="004"
+              dateText="Day 7 - 9"
+              style={{ color: '#e86971' }}
+            >
+              <h3>90% loss of taste &smell. COUGH & BREATHLESSNESS,  cant Idientify Completley sweet, salt, bitter etc</h3>
+            </TimelineItem>
+            <TimelineItem
+              key="005"
+              dateText="Day 9 - 12"
+              style={{ color: '#e86971' }}
+            >
+              <h3>All Symptoms Continue, Getting tested Positive</h3>
+            </TimelineItem>
+            <TimelineItem
+              key="005"
+              dateText="Day 13 - 14"
+              style={{ color: '#e86971' }}
+            >
+              <h3>100% loss of taste & smell.More than 4kgs weightloss since day 1.Mild cough & breathlessness.</h3>
+            </TimelineItem>
+          </Timeline>
+          {close}
+        </article>
+
+        <article
+          id="medicines"
+          className={`${this.props.article === 'medicines' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Medication</h2>
+          <span className="image main">
+          <p>
+            Strongly recommend to consult Doctor for your medication.
+            Just for Information, Im writing here the the consolidated list of Medicines used by family and friends when they were tested positive.
+          </p>
+          <p>
+            Apart from the below , First day HCQS-400 tablet one each after
+             lunch and dinner .Next three days HCQS-200 one each after lunch and dinner.
+          </p>
+          <p>
+          1. Azithromycin 500 -For 5 days - each day 1 tablet after lunch ( get two strips - u get 3 tabs in each strip)
+          </p>
+          <p>
+          2. Zinkovit+ - 1 strip - For 7 days each day 1 tablet after lunch
+          </p>
+          <p>
+          3. VitaminE- 1 strip - For 7 days each day 1 tablet after lunch
+          </p>
+          <p>
+          4. Shelcal 500- 1 strip - For 7 days each day 1 tablet after lunch
+          </p>
+          <p>
+          5. Vitamin C chewable tablets - 2 strips - Daily two tablets
+          </p>
+          <p>
+          6. Cetirizine tablets - 1strip - For 5 days each day 1 tablet after Dinner
+          </p>
+          <p>
+          7. Dolo650 - 1strip - (use only when u have fever -
+            daily two tablets after lunch and Dinner)
+          </p>
+          <p>
+          8. Pulse Oximeter device- 1( Join hospital if its below 90 -check oxygen levels)
+          </p>
+          <p>
+          9.Inhale Steam compulsary, daily 3 times
+          </p>
+          <p>
+          10.Daily 3 Times gargling with salt water
+          </p>
+          <p>
+          11.Drink warm water always
+          </p>
+          <p>
+          12.For breathlessness relief do pranayamam & Simhakriya. Visit SimhaKriya video from Isha by {' '}
+          <a href="https://www.youtube.com/watch?v=lP1Y1bk1YgU" target="_blank">Clicking here</a>.
+          </p>
+          <p>
+          13.Absolutely stop watching Corona News !!!!!
+          </p>
+          </span>
+          {close}
+        </article>
+        <article
+          id="consultation"
+          className={`${this.props.article === 'consultation' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">consultation</h2>
+          <span className="image main">
+          <p className="major">Please consult Doctor If you have any of the symptoms.
+          You can book appointment and meet (Video chat) doctors online from Home.</p>
+          <p>
+            (People who were tested positive aswell can use this consultation
+            for recommended medication.)
+          </p>
+          <p>
+            Following are the few options I explored and in the order of my preference:
+          </p>
+          <p>
+            1.Practo (You can aswell install Practo App in your mobile) to
+            consult doctors They charge around Rs250 for one consultation .
+            They would also provide you with a
+            Medicines prescription online. You can visit their website by  {' '}
+            <a href="https://www.practo.com/" target="_blank">Clicking here</a>.
+          </p>
+          <p>
+            2.Tata Health Care (Resonably economical) you can visit their website by {' '}
+            <a href="https://www.tatahealth.com/" target="_blank">Clicking here</a>.
+          </p>
+          <p>
+            3. Yashoda online Doctors(Pretty costly than above options) you can visit their website by {' '}
+            <a href="https://www.yashodahospitals.com/" target="_blank">Clicking here</a>.
+          </p>
+          </span>
+          {close}
+        </article>
+        <article
+          id="testing"
+          className={`${this.props.article === 'testing' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Corona Testing:</h2>
+          <span className="image main">
+          <p>
+          1. At Govt centeres you can get tests done without Doctor prescription.Its free of cost ,
+           they just tell your result,
+            but would not provide any hard copy of receipt/report for the same.You can view
+            full list of Governament test centres by{' '}
+            <a href="https://covid19.telangana.gov.in/health-facilities/testing-centres/" target="_blank">Clicking here</a>.
+          </p>
+          <p>
+            2. Private hospitals/Labs perform tests.Here Doctor prescription is must to produce.
+            You can book online
+            (like vijayaDiagnostics centre) or
+            visit some hospitals nearby your place.(Cost around Rs2200 per person).
+            Aadhar card is must to provide at testing centre.
+          </p>
+          <p>
+            3. If you are in Hyderabad, you can aswell get tests done at your home itself(Costs around Rs 3300 per person)
+            - technician will visit your home(Doctor prescription must to book appointment).
+            you can visit "DocC" website by  {' '}
+            <a href="https://doctorc.in/hyderabad/covid-19-test/?#/" target="_blank">Clicking here</a>.
+          </p>
+          <p>
+            For Options 2 & 3 above as Doctor prescription is must,
+            you can reachout to them, they can get you an Doctor consultation for extra amount.
+          </p>
+          </span>
           {close}
         </article>
 
@@ -104,7 +287,21 @@ class Main extends React.Component {
         >
           <h2 className="major">Contact</h2>
           <p>
-            Myself SS.Harish and previously few of my own Family & Friends have been tested Corona Positive.There were lot questions for me then so I tried to create this website with the answers/solutions I found. If you have any specific questions that I could answer, you can reach me through following handles .Please ask only those questions which you feel are important :)  
+            Telangana State Covid Emergency number - 18005994455
+          </p>
+          <p>
+            Telangana State Home Isolation call centre - 180059912345
+          </p>
+          <p>
+            For full list of other Govt numbers - please check footer link in the Home page
+          </p>
+          <p>
+          Myself SS.Harish and Im a software engineer by profession.
+          Previously few of my own Family & Friends have been tested Corona Positive.
+          There were lot questions for me then so I tried to create this website with
+           the answers/solutions I found. If you have any specific questions that I could
+           answer, you can reach me through following handles.
+            Please ask only those questions which you feel are important :)
           </p>
           <ul className="icons">
             <li>

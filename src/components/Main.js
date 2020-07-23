@@ -16,8 +16,6 @@ class Main extends React.Component {
         }}
       ></div>
     )
-    var elmnt = document.getElementById("main")
-    // var txt = elmnt.offsetHeight
     console.log('this.props.setWrapperRef', window.screen.width)
     return (
       <div

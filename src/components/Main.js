@@ -121,7 +121,7 @@ class Main extends React.Component {
           <span className="image main">
           <p>
             Strongly recommend to consult Doctor for your medication.
-            Just for Information, Im writing here the the consolidated list of Medicines used by family and friends when they were tested positive.
+            Just for Information, Im writing here the the consolidated list of Medicines I used :
           </p>
           <p>
             The best medicine I received is this -

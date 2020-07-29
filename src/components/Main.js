@@ -124,8 +124,8 @@ class Main extends React.Component {
             Just for Information, Im writing here the the consolidated list of Medicines used by family and friends when they were tested positive.
           </p>
           <p>
-            Apart from the below , First day HCQS-400 tablet one each after
-             lunch and dinner .Next three days HCQS-200 one each after lunch and dinner.
+           1. First day HCQS-400 tablet one each after
+             lunch and dinner .Next three days HCQS-200 one each after lunch and dinner.(Few doctors are not prescribing this)
           </p>
           <p>
           1. Azithromycin 500 -For 5 days - each day 1 tablet after lunch ( get two strips - u get 3 tabs in each strip)

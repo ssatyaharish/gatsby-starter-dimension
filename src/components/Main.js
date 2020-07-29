@@ -274,6 +274,18 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Diet</h2>
+           <p>
+            1.Eat lot of leafy Vegetables.
+          </p>
+           <p>
+            2.Include Lot of nuts & dry fruits in your daily diet, like Almond,Dates,Cashew,Apricots etc.
+          </p>
+          <p>
+            3.Eat lot of fruits like Kiwi, Apple, Banana, Sapota.
+          </p>
+          <p>
+            4.Avoid fried/junk foods.
+          </p>
           <span className="image main">
             <Document file={pdfFile}>
               <Page pageNumber={10} width={this.state.windowWidth >= 768 ? 500 : null}/>
@@ -301,8 +313,7 @@ class Main extends React.Component {
           </p>
           <p>
           Myself SS.Harish and Im a software engineer by profession.
-          Previously few of my own Family & Friends have been tested Corona Positive.
-          There were lot questions for me then so I tried to create this website with
+          There were lot questions for me when I was tested Positive, so I tried to create this website with
            the answers/solutions I found. If you have any specific questions that I could
            answer, you can reach me through following handles.
             Please ask only those questions which you feel are important :)

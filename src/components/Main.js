@@ -124,6 +124,10 @@ class Main extends React.Component {
             Just for Information, Im writing here the the consolidated list of Medicines used by family and friends when they were tested positive.
           </p>
           <p>
+            The best medicine I received is this -
+            "Absolutley worry not thinking of Corona, consider its just like the Flu outside." (Believe me it works MAGIC than any of these medicines)
+          </p>
+          <p>
            1. First day HCQS-400 tablet one each after
              lunch and dinner .Next three days HCQS-200 one each after lunch and dinner.(Few doctors are not prescribing this)
           </p>

@@ -10,7 +10,7 @@ const Header = props => (
           We all are together in this battle, Dont worry :)
         </p>
         <p>
-          Im a Software developer,who was tested corona positive.Im building this site from my personal experience !!
+          I was tested +ve for corona,so sharing consolidated information from my experience !!
         </p>
       </div>
     </div>

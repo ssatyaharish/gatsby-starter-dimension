@@ -5,12 +5,12 @@ const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="content">
       <div className="inner">
-        <h1>Have No Fear with Corono</h1>
+        <h1>Corono Help information</h1>
         <p>
           We all are together in this battle, Dont worry :)
         </p>
         <p>
-          I was tested +ve for corona,so sharing consolidated information from my experience !!
+          I was tested +ve for corona,sharing this information from my experience !!
         </p>
       </div>
     </div>

@@ -61,7 +61,7 @@ class Main extends React.Component {
           </p>
           <p>
             My own Family and Friends were tested Corona Positive.
-            Here I would like to put out their experience of Corona Positive SYMPTOMS.It might not be the case for everyone who experience Corona though.
+            Here I would like to put out the experience of Corona Positive SYMPTOMS.It might not be the case for everyone who experience Corona though.
           </p>
           <Timeline lineColor={'#ddd'}>
             <TimelineItem
@@ -121,11 +121,11 @@ class Main extends React.Component {
           <span className="image main">
           <p>
             Strongly recommend to consult Doctor for your medication.
-            Just for Information, Im writing here the the consolidated list of Medicines I used :
+            Just for Information, Im sharing the consolidated list of Medicines I used :
           </p>
           <p>
-            The best medicine I received is this -
-            "Absolutley worry not thinking of Corona, consider its just like the Flu outside." (Believe me it works MAGIC than any of these medicines)
+            The best medicine I received from one of my favourite persons is this-
+            "Absolutley worry not thinking about Corona, consider its just like the Flu outside." (Believe me it works MAGIC than any of these medicines)
           </p>
           <p>
            1. First day HCQS-400 tablet one each after

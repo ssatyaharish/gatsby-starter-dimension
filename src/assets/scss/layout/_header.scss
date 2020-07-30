@@ -240,7 +240,7 @@
     }
   }
 
-  @include breakpoint(xsmall) {
+  @include breakpoint(large) {
     padding: 1.5rem 0;
 
     .content {

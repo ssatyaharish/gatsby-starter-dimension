@@ -326,10 +326,8 @@ class Main extends React.Component {
             For full list of other Govt numbers - please check footer link in the Home page
           </p>
           <p>
-          Myself Satya and Im a software engineer by profession.
-          There were lot questions for me when I was tested Positive, so I tried to create this website with
-           the answers/solutions I found. If you have any specific questions that I could
-           answer, you can reach me through following handles.
+          Im a software engineer by profession.I wanted to create this website to share my experience that could help someone.
+ If you still have any specific question that I could help with, pls reach me through the Twitter handle link here.
             Please ask only those questions which you feel are important :)
           </p>
           <ul className="icons">

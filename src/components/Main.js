@@ -276,6 +276,7 @@ class Main extends React.Component {
             </Document>
           </span>
           {close}
+          {backButton}
         </article>
 
         <article
@@ -325,7 +326,7 @@ class Main extends React.Component {
             For full list of other Govt numbers - please check footer link in the Home page
           </p>
           <p>
-          Myself SS.Harish and Im a software engineer by profession.
+          Myself Satya and Im a software engineer by profession.
           There were lot questions for me when I was tested Positive, so I tried to create this website with
            the answers/solutions I found. If you have any specific questions that I could
            answer, you can reach me through following handles.
@@ -339,16 +340,6 @@ class Main extends React.Component {
                 target="_blank"
               >
                 <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/ssatyaharish/"  target="_blank" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/harish_sankaramanchi"  target="_blank" className="icon fa-instagram">
-                <span className="label">Instagram</span>
               </a>
             </li>
           </ul>

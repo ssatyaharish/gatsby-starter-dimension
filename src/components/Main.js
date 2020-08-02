@@ -33,7 +33,7 @@ class Main extends React.Component {
         onClick={() => {
           this.props.onCloseArticle()
         }}
-      >Click Here To Return HomePage</div>
+      >Go Back to Home Page by clicking here</div>
     )
     return (
       <div

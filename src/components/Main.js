@@ -60,8 +60,8 @@ class Main extends React.Component {
             isolation in the home page.
           </p>
           <p>
-            My own Family and Friends were tested Corona Positive.
-            Here I would like to put out the experience of Corona Positive SYMPTOMS.It might not be the case for everyone who experience Corona though.
+            Myself and one of my family members were tested Corona Positive.
+            Here I would like to put out the experience of Corona Positive SYMPTOMS.Though, It might not be the case for everyone who experience Corona.
           </p>
           <Timeline lineColor={'#ddd'}>
             <TimelineItem
@@ -166,7 +166,7 @@ class Main extends React.Component {
           11.Drink warm water always
           </p>
           <p>
-          12.For breathlessness relief do pranayamam & Simhakriya. Visit SimhaKriya video from Isha by {' '}
+          12.For breathlessness relief do pranayamam & Simhakriya. Watch SimhaKriya video from Isha by {' '}
           <a href="https://www.youtube.com/watch?v=lP1Y1bk1YgU" target="_blank">Clicking here</a>.
           </p>
           <p>
@@ -187,11 +187,11 @@ class Main extends React.Component {
           <p className="major">Please consult Doctor If you have any of the symptoms.
           You can book appointment and meet (Video chat) doctors online from Home.</p>
           <p>
-            (People who were tested positive aswell can use this consultation
-            for recommended medication.)
+            People who were tested positive aswell can use this consultation
+            for recommended medication.
           </p>
           <p>
-            Following are the few options I explored and in the order of my preference:
+            Meet Doctors online,following are the few options I explored & in order of my preference:
           </p>
           <p>
             1.Practo (You can aswell install Practo App in your mobile) to
@@ -221,10 +221,10 @@ class Main extends React.Component {
           <h2 className="major">Corona Testing:</h2>
           <span className="image main">
           <p>
-          1. At Govt centeres you can get tests done without Doctor prescription.Its free of cost ,
-           they just tell your result,
-            but would not provide any hard copy of receipt/report for the same.You can view
-            full list of Governament test centres by{' '}
+          1. At Govt centeres you can get tests done without Doctor prescription.Its free of cost.
+           They tell your result through rapid test,
+            but would not provide any hard copy of receipt/report for the same.Most of the local govt hospital's are conducting rapid tests, check your nearby area.
+            You can view other list of Governament test centres by{' '}
             <a href="https://covid19.telangana.gov.in/health-facilities/testing-centres/" target="_blank">Clicking here</a>.
           </p>
           <p>

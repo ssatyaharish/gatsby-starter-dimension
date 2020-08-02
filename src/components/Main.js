@@ -29,6 +29,7 @@ class Main extends React.Component {
     )
     let backButton = (
       <div
+        className="backButton"
         onClick={() => {
           this.props.onCloseArticle()
         }}

@@ -27,6 +27,13 @@ class Main extends React.Component {
         }}
       ></div>
     )
+    let backButton = (
+      <div
+        onClick={() => {
+          this.props.onCloseArticle()
+        }}
+      >Click Here To Return HomePage</div>
+    )
     return (
       <div
         ref={this.props.setWrapperRef}
@@ -108,6 +115,7 @@ class Main extends React.Component {
             </TimelineItem>
           </Timeline>
           {close}
+          {backButton}
         </article>
 
         <article
@@ -174,6 +182,7 @@ class Main extends React.Component {
           </p>
           </span>
           {close}
+          {backButton}
         </article>
         <article
           id="consultation"
@@ -210,6 +219,7 @@ class Main extends React.Component {
           </p>
           </span>
           {close}
+          {backButton}
         </article>
         <article
           id="testing"
@@ -246,6 +256,7 @@ class Main extends React.Component {
           </p>
           </span>
           {close}
+          {backButton}
         </article>
 
         <article
@@ -292,6 +303,7 @@ class Main extends React.Component {
             </Document>
           </span>
           {close}
+          {backButton}
         </article>
 
         <article
@@ -340,6 +352,7 @@ class Main extends React.Component {
             </li>
           </ul>
           {close}
+          {backButton}
         </article>
       </div>
     )

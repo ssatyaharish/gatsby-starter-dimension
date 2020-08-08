@@ -49,9 +49,6 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">SYMPTOMS</h2>
-          <span className="image main">
-            <img src="https://i.ytimg.com/vi/7zzfdYShvQU/maxresdefault.jpg" alt="" />
-          </span>
           <p>
             Common signs of infection include respiratory symptoms, fever, cough,
             shortness of breath and breathing difficulties. In more severe cases,

@@ -130,12 +130,12 @@ class Main extends React.Component {
           <h2 className="major">Medication</h2>
           <span className="image main">
           <p>
-            Strongly recommend to consult Doctor for your medication.
-            Just for Information, Im sharing the consolidated list of Medicines I used :
-          </p>
-          <p>
             The best medicine I received from one of my favourite persons is this-
             "Absolutley worry not thinking about Corona, consider its just like the Flu outside." (Believe me it works MAGIC than any of these medicines)
+          </p>
+          <p>
+            Strongly recommend to consult Doctor for your medication.
+            For Information, Im sharing the consolidated list of Medicines I used :
           </p>
           <p>
            1. First day HCQS-400 tablet one each after

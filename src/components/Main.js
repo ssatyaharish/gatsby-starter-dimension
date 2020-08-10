@@ -130,8 +130,8 @@ class Main extends React.Component {
           <h2 className="major">Medication</h2>
           <span className="image main">
           <p>
-            The best medicine I received from one of my favourite persons is this-
-            "Absolutley worry not thinking about Corona, consider its just like the Flu outside." (Believe me it works MAGIC than any of these medicines)
+            The best medicine I received from one of my favourite persons advice is this-
+            "Absolutley worry not thinking of Corona, consider its just a common Flu outside." (Believe me it works MAGIC than any of these medicines)
           </p>
           <p>
             Strongly recommend to consult Doctor for your medication.
@@ -145,19 +145,19 @@ class Main extends React.Component {
           1. Azithromycin 500 -For 5 days - each day 1 tablet after lunch ( get two strips - u get 3 tabs in each strip)
           </p>
           <p>
-          2. Zinkovit+ - 1 strip - For 7 days each day 1 tablet after lunch
+          2. Zinkovit+ - 1 strip - For 15 days each day 1 tablet after lunch
           </p>
           <p>
-          3. VitaminE- 1 strip - For 7 days each day 1 tablet after lunch
+          3. VitaminE- 1 strip - For 15 days each day 1 tablet after lunch
           </p>
           <p>
           4. Shelcal 500- 1 strip - For 7 days each day 1 tablet after lunch
           </p>
           <p>
-          5. Vitamin C chewable tablets - 2 strips - Daily two tablets
+          5. Vitamin C chewable tablets - 2 strips - Daily two tablets anytime
           </p>
           <p>
-          6. Cetirizine tablets - 1strip - For 5 days each day 1 tablet after Dinner
+          6. Cetirizine tablets - 1 strip - For 4 days - each day 1 tablet after Dinner
           </p>
           <p>
           7. Dolo650 - 1strip - (use only when u have fever -

@@ -5,6 +5,7 @@ import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import covidSympt from '../images/covidSymptoms.jpg'
 import pdfFile from '../images/COVID-19-Guidelines.pdf'
 
 class Main extends React.Component {
@@ -49,6 +50,9 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">SYMPTOMS</h2>
+          <span className="image main">
+            <img src={covidSympt} alt="" />
+          </span>
           <p>
             Common signs of infection include respiratory symptoms, fever, cough,
             shortness of breath and breathing difficulties. In more severe cases,
